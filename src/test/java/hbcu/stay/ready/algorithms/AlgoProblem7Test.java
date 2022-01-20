@@ -10,7 +10,7 @@ public class AlgoProblem7Test {
         AlgoProblem7 algoProblem7 = new AlgoProblem7();
 
         int expected = 3;
-        int actual = algoProblem7.countingSmiles("(:l(:cy:)");
+        int actual = algoProblem7.countingSmiles("(:(::)");
 
         Assertions.assertEquals(expected,actual);
     }
@@ -29,7 +29,7 @@ public class AlgoProblem7Test {
     public void testThree(){
         AlgoProblem7 algoProblem7 = new AlgoProblem7();
 
-        int expected = 10;
+        int expected = 11;
         int actual = algoProblem7.countingSmiles(":):D:D:):PO:|:)::P:P:D:):P):):O:O:O:|:O::P:DO::):PO:|:|:):)::P:))::):D|::P:P)::)");
 
         Assertions.assertEquals(expected,actual);

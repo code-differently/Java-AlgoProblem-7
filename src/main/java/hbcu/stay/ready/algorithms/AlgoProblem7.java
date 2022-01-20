@@ -1,11 +1,10 @@
 package hbcu.stay.ready.algorithms;
 
-import java.util.Random;
-
 public class AlgoProblem7 {
 
-    public int countingSmiles(String classroom){
+    public int countingSmiles(String faces){
         return -1;
     }
+
     
 }
